@@ -96,3 +96,19 @@ text-align:right;
 .ow {
     background-color:var(--off-white);
 }
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem, 1rem;
+    color:white;
+    text-align:center;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+footer .link {
+    color:white;
+}
+footer ul {
+    padding-inline-start:none;
+}
