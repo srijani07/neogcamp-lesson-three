@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Rubik&display=swap');
+
+:root {
+   --primary-color:#10B981;
+
+}
+body { 
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    padding : 0rem, 1rem;
+
+}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+    text-decoration:none;
+    padding : 0.5rem 1rem;
+}
+.primary-link {
+    background-color:var(--primary-color);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color:white;
+
+}
+
+.secondary-link {
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color)
+}
